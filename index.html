@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="icon" type="image/png" href="as/ico.png">
+  <link rel="stylesheet" href="as/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="toggleTheme">
+      <span id="themeIcon">🌙</span> Toggle Theme
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="left-section reveal">
+      <div class="image-wrapper">
+
+
+<img src="as/2 copy.png" alt="Models" height="600px" class="contact-image">
+
+      </div>
+    </div>
+
+    <div class="right-section reveal">
+      <h1 style="color: aqua;">Contact Us</h1>
+      <div class="form-container">
+        <form id="contactForm">
+          <input type="text" name="fullName" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="E-mail" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">Contact Us</button>
+        </form>
+
+        <div class="info">
+          <p><strong>Contact</strong><br>
+            <a href="mailto:arussanthosh@gmail.com">arussanthosh@gmail.com</a>
+          </p>
+          <p><strong>Based in</strong><br>Erode, Tamil Nadu<br>India</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/santhosh.mp.923519" target="_blank">
+              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook.png" />
+            </a>
+            <a href="https://www.instagram.com/santhosh_747_dark/" target="_blank">
+              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="as/script.js"></script>
+</body>
+</html>
