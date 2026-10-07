@@ -1,0 +1,11 @@
+{
+  "name": "santhosh-portfolio-2026",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static portfolio · Cinematic 2026 edition",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node scripts/cinema-check.cjs"
+  },
+  "devDependencies": { "playwright": "^1.58.0" }
+}

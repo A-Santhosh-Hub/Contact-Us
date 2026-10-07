@@ -1,63 +1,1103 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact Us</title>
-  <link rel="icon" type="image/png" href="as/ico.png">
-  <link rel="stylesheet" href="as/style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Santhosh A — Creative Developer · Portfolio 2026</title>
+    <meta name="description" content="Portfolio of Santhosh A, a creative Frontend Developer, UI/UX Designer, and 3D Artist based in India. Specializing in React, JavaScript, Blender 3D, and modern web experiences.">
+    <!-- PHASE 5 FIX: Removed malformed URL from keywords -->
+    <meta name="keywords" content="Santhosh A, santhosh-a-sanstudio, Portfolio, Frontend Developer, UI/UX Designer, Blender 3D Artist, Web Development, React Developer, JavaScript, HTML, CSS, Erode, India">
+    <meta name="author" content="Santhosh A">
+    <meta name="robots" content="index, follow">
+    
+    <!-- PHASE 5 FIX: Added canonical URL -->
+    <link rel="canonical" href="https://santhosh2024.neocities.org/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://santhosh2024.neocities.org/">
+    <meta property="og:title" content="Santhosh A | Frontend Developer & 3D Artist">
+    <meta property="og:description" content="Explore the portfolio of Santhosh A - featuring web projects, 3D models, and UI/UX designs.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/177222217">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://santhosh2024.neocities.org/">
+    <meta property="twitter:title" content="Santhosh A | Frontend Developer & 3D Artist">
+    <meta property="twitter:description" content="Explore the portfolio of Santhosh A - featuring web projects, 3D models, and UI/UX designs.">
+    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/177222217">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- The 3D viewer loads only as its section approaches the viewport. -->
+
+    <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/177222217">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="theme-color" content="#0c0d1b">
+    <link rel="preload" as="image" href="assets/coastal-city.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Santhosh A",
+      "url": "https://santhosh2024.neocities.org/",
+      "image": "https://avatars.githubusercontent.com/u/177222217",
+      "jobTitle": "Frontend Developer, UI/UX Designer, 3D Artist & Java Backend Engineer",
+      "alumniOf": "Nandha Engineering College",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Erode",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "India"
+      },
+      "sameAs": [
+        "https://github.com/A-Santhosh-Hub",
+        "https://www.linkedin.com/in/santhosh-a-sanstudio/",
+        "https://www.instagram.com/santhosh.origin/",
+        "https://www.facebook.com/santhosh.mp.923519",
+        "https://www.youtube.com/@crazyvideos788"
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/cinema.css">
 </head>
-<body>
-  <div class="theme-toggle">
-    <button id="toggleTheme">
-      <span id="themeIcon">🌙</span> Toggle Theme
-    </button>
-  </div>
 
-  <div class="container">
-    <div class="left-section reveal">
-      <div class="image-wrapper">
-
-
-<img src="as/2 copy.png" alt="Models" height="600px" class="contact-image">
-
-      </div>
-    </div>
-
-    <div class="right-section reveal">
-      <h1 style="color: aqua;">Contact Us</h1>
-      <div class="form-container">
-        <form id="contactForm">
-          <input type="text" name="fullName" placeholder="Full Name" required />
-          <input type="email" name="email" placeholder="E-mail" required />
-          <textarea name="message" placeholder="Message" required></textarea>
-          <button type="submit">Contact Us</button>
-        </form>
-
-        <div class="info">
-          <p><strong>Contact</strong><br>
-            <a href="mailto:arussanthosh@gmail.com">arussanthosh@gmail.com</a>
-          </p>
-          <p><strong>Based in</strong><br>Erode, Tamil Nadu<br>India</p>
-          <div class="social-icons">
-            <a href="https://www.facebook.com/santhosh.mp.923519" target="_blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook.png" />
-            </a>
-            <a href="https://www.instagram.com/santhosh_747_dark/" target="_blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" />
-            </a>
-            <a href="#" target="_blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter.png" />
-            </a>
-          </div>
+<body class="dark-mode">
+    <a class="skip-link" href="#projects">Skip to work</a>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <div class="opening-sequence" aria-hidden="true"><div class="opening-mark">S<span>★</span></div><div class="opening-caption">SANSTUDIO PRESENTS</div></div>
+    <button class="skip-opening" type="button">SKIP INTRO ↗</button>
+    <button class="motion-toggle" type="button" aria-pressed="false">Motion <span>on</span></button>
+    
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <span class="header-edition">SANTHOSH / 26</span>
+            <a href="#home" class="logo" aria-label="Santhosh home">S<span class="logo-star">★</span></a>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#projects" class="nav-link">Work</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Journey</a>
+                <a href="#contact" class="nav-link nav-contact">Let’s talk <span aria-hidden="true">↗</span></a>
+                <!-- PHASE 4 FIX: Added keyboard accessibility to toggles -->
+                <div class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode" aria-pressed="true" role="button" tabindex="0">
+                    <div class="theme-toggle-circle"></div>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" id="hamburg" aria-label="Open Menu" aria-expanded="false" role="button" tabindex="0"></i>
         </div>
+    </header>
+
+    <main id="main-content">
+    <!-- Scroll-driven opening chapter -->
+    <section id="home" class="hero" aria-label="Santhosh — creative developer">
+      <div class="hero-sticky">
+        <div class="hero-landscape" aria-hidden="true"></div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-edition"><span>SANSTUDIO PRESENTS</span><span>THE 2026 EDITION</span></div>
+        <div class="hero-title-stage">
+          <span class="hero-numeral" aria-hidden="true">26</span>
+          <h1 class="hero-wordmark"><span>SAN</span><span>THOSH</span></h1>
+          <p class="hero-roles">DEVELOPER. DESIGNER. WORLD BUILDER.</p>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-location"><span>BASED IN INDIA.</span><strong>BUILT FOR EVERYWHERE.</strong></div>
+          <a href="#intro" class="enter-world">ENTER MY WORLD <span aria-hidden="true">↓</span></a>
+          <div class="hero-availability"><i></i> OPEN FOR OPPORTUNITIES</div>
+        </div>
+        <div class="hero-chapter" aria-hidden="true">01 — THE BEGINNING</div>
       </div>
+    </section>
+
+    <section id="intro" class="manifesto cinematic-section">
+      <div class="manifesto-inner">
+        <span class="eyebrow">A PORTFOLIO BY SANTHOSH A</span>
+        <h2 class="manifesto-title">BIG IDEAS.<br>NO LIMITS.</h2>
+        <p>From the first line of code to the final frame.<br>I build digital experiences with a world of their own.</p>
+        <div class="intro-actions"><a class="btn" href="#projects">EXPLORE THE WORK <span aria-hidden="true">↗</span></a><div class="resume-dropdown-container" data-aos="fade-up" data-aos-delay="700">
+                        <button class="btn btn-outline" id="resume-dropdown-btn" style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+                            My résumé <i class="fa-solid fa-chevron-down" style="font-size: 0.8rem; transition: transform 0.3s;" id="resume-chevron"></i>
+                        </button>
+                        <div class="resume-dropdown-menu" id="resume-dropdown-menu">
+                            <a href="https://drive.google.com/file/d/1TLKXyDXymf_7ddF3FPL_9PmW3oMiuxXS/view?usp=sharing" class="resume-item ats-res" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-lines"></i> ATS Resume</a>
+                            <a href="https://drive.google.com/file/d/1cTsKIXxbzWZU_VpWruJzS5CP7I4F7e-s/view?usp=sharing" class="resume-item creative-res" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-palette"></i> Creative Resume</a>
+                            <a href="https://drive.google.com/file/d/1TLKXyDXymf_7ddF3FPL_9PmW3oMiuxXS/view?usp=sharing" class="resume-item java-res" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-java"></i> Java Resume</a>
+                            <a href="https://drive.google.com/file/d/1cTsKIXxbzWZU_VpWruJzS5CP7I4F7e-s/view?usp=sharing" class="resume-item front-res" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-code"></i> Frontend Resume</a>
+                        </div>
+                    </div></div>
+        <div class="intro-meta"><span>FRONTEND DEVELOPMENT</span><span>UI / UX DESIGN</span><span>3D & INTERACTION</span></div>
+      </div>
+      <span class="manifesto-watermark" aria-hidden="true">S.</span>
+    </section>
+
+    <nav class="chapter-nav" aria-label="Portfolio chapters"><a href="#home" aria-label="Opening chapter" class="active"><span>01</span></a><a href="#projects" aria-label="Selected work"><span>02</span></a><a href="#about" aria-label="About Santhosh"><span>03</span></a><a href="#contact" aria-label="Contact"><span>04</span></a></nav>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" style="padding-top: 60px;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up"><small>CHAPTER 02 / SELECTED WORK</small>WELCOME TO<br><em>THE PLAYGROUND.</em></h2>
+            <p class="section-lede">A collection of web experiences, useful tools, and creative experiments.</p>
+            <div class="work-toolbar"><div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Websites</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+                <button class="filter-btn" data-filter="games">Games</button>
+            </div>
+
+            <div class="slide-controls"><button class="slide-prev" type="button" aria-label="Previous project">←</button><span class="slide-count" aria-live="polite">01 / 10</span><button class="slide-next" type="button" aria-label="Next project">→</button></div></div>
+            <div class="swiper projects-slider" id="project-reel" tabindex="0" role="region" aria-label="Project reel — swipe or use arrow buttons">
+                <div class="swiper-wrapper">
+                    
+                    <!-- PHASE 3 FIX: Removed iframe inside swiper to prevent lag. Replaced with fast thumbnails. Modal loads iframe. -->
+                    <!-- PHASE 2 FIX: Added custom data-github-url so modal updates automatically -->
+                    
+                    <!-- Project 1: Blender 3D -->
+                    <div class="swiper-slide project-card glass-card" data-category="web" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/My-Blender-3D-Models/" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/My-Blender-3D-Models"
+                        data-project-title="My Blender 3D Models">
+                        <img src="https://placehold.co/800x450/1e293b/0ce3e9?text=Blender+3D+Showcase" alt="Blender Models Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">My Blender 3D Models</h3>
+                            <div class="project-category">3D Showcase</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-cube"></i> Role: 3D</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> Ongoing</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-spinner"></i> Active</span>
+                                <span class="p-badge"><i class="fa-solid fa-cube"></i> Blender</span>
+                                <span class="p-badge"><i class="fa-solid fa-bolt"></i> High Poly</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: SanStudio Image Toolkit -->
+                    <div class="swiper-slide project-card glass-card" data-category="tools" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/in/Project/SanStudioToolkit/in" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/SanStudioToolkit"
+                        data-project-title="SanStudio Image Toolkit">
+                        <img src="https://placehold.co/800x450/1e293b/ff007f?text=Image+Toolkit" alt="Toolkit Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">SanStudio Toolkit</h3>
+                            <div class="project-category">Web Tool</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-pen-nib"></i> Role: UI</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 2 Weeks</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-check"></i> Live</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> HTML/JS</span>
+                                <span class="p-badge"><i class="fa-solid fa-chart-line"></i> 98/100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: SanOS -->
+                    <div class="swiper-slide project-card glass-card" data-category="web" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/in/Project/SanOS/in.html" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/SanOS"
+                        data-project-title="SanOS">
+                        <img src="https://placehold.co/800x450/1e293b/22c55e?text=SanOS+System" alt="SanOS Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">SanOS</h3>
+                            <div class="project-category">Web OS System</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-desktop"></i> Role: Frontend</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 1 Month</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-check"></i> Live</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> JS/CSS</span>
+                                <span class="p-badge"><i class="fa-solid fa-chart-line"></i> 99/100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: SanCode Online Editor -->
+                    <div class="swiper-slide project-card glass-card" data-category="tools" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/in/Project/SanCode.html" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/SanCode"
+                        data-project-title="SanCode Web Editor">
+                        <img src="https://placehold.co/800x450/1e293b/ffcc00?text=SanCode+Editor" alt="SanCode Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">SanCode Editor</h3>
+                            <div class="project-category">Dev Tool</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-laptop-code"></i> Role: Frontend</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 3 Weeks</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-spinner"></i> Beta</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> JS/Web API</span>
+                                <span class="p-badge"><i class="fa-solid fa-bolt"></i> Fast</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: SanVideoHub -->
+                    <div class="swiper-slide project-card glass-card" data-category="web" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/in/Project/SanVideoHub/in.html" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/SanVideoHub"
+                        data-project-title="SanVideoHub">
+                        <img src="https://placehold.co/800x450/1e293b/d946ef?text=SanVideoHub" alt="VideoHub Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">SanVideoHub</h3>
+                            <div class="project-category">Media App</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-layer-group"></i> Role: Full Stack</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 3 Weeks</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-check"></i> Live</span>
+                                <span class="p-badge"><i class="fa-solid fa-server"></i> Backend</span>
+                                <span class="p-badge"><i class="fa-solid fa-network-wired"></i> REST API</span>
+                                <span class="p-badge"><i class="fa-solid fa-database"></i> Database</span>
+                                <span class="p-badge"><i class="fa-solid fa-shield-halved"></i> Authentication</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> APIs/JS</span>
+                                <span class="p-badge"><i class="fa-solid fa-chart-line"></i> 95/100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: SanKeep Notes -->
+                    <div class="swiper-slide project-card glass-card" data-category="tools" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/in/Project/SanKeep/in.html" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/SanKeep"
+                        data-project-title="SanKeep Notes">
+                        <img src="https://placehold.co/800x450/1e293b/ff7700?text=SanKeep+Notes" alt="SanKeep Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">SanKeep Notes</h3>
+                            <div class="project-category">Productivity Tool</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-desktop"></i> Role: Frontend</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 1 Week</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-check"></i> Live</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> LocalStorage</span>
+                                <span class="p-badge"><i class="fa-solid fa-bolt"></i> Instant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7: LifeOS Dashboard -->
+                    <div class="swiper-slide project-card glass-card" data-category="web" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/WEB_APPLICATION-S/LifeOS/in" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/LifeOS"
+                        data-project-title="LifeOS Dashboard">
+                        <img src="https://placehold.co/800x450/1e293b/0ce3e9?text=LifeOS" alt="LifeOS Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">LifeOS Dashboard</h3>
+                            <div class="project-category">Web App</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-server"></i> Role: Backend</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 1 Month</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-spinner"></i> Active</span>
+                                <span class="p-badge"><i class="fa-solid fa-server"></i> Backend</span>
+                                <span class="p-badge"><i class="fa-solid fa-network-wired"></i> REST API</span>
+                                <span class="p-badge"><i class="fa-solid fa-database"></i> Database</span>
+                                <span class="p-badge"><i class="fa-solid fa-shield-halved"></i> Authentication</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> JS/CSS</span>
+                                <span class="p-badge"><i class="fa-solid fa-chart-line"></i> 96/100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8: SanVibe -->
+                    <div class="swiper-slide project-card glass-card" data-category="web" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/WEB_APPLICATION-S/SanVibe/index.html" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/SanVibe"
+                        data-project-title="SanVibe">
+                        <img src="https://placehold.co/800x450/1e293b/ff007f?text=SanVibe+Music" alt="SanVibe Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">SanVibe Player</h3>
+                            <div class="project-category">Music App</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-desktop"></i> Role: Frontend</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 2 Weeks</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-check"></i> Live</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> Web Audio</span>
+                                <span class="p-badge"><i class="fa-solid fa-chart-line"></i> 98/100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9: Shared Wallet Manager -->
+                    <div class="swiper-slide project-card glass-card" data-category="tools" data-aos="fade-up"
+                        data-project-url="https://a-santhosh-hub.github.io/WEB_APPLICATION-S/SanPayNote/in.html" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/SanPayNote"
+                        data-project-title="Shared Wallet Manager">
+                        <img src="https://placehold.co/800x450/1e293b/22c55e?text=Wallet+Manager" alt="Wallet Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">SanPayNote</h3>
+                            <div class="project-category">Finance Tool</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-layer-group"></i> Role: Full Stack</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 3 Weeks</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-spinner"></i> Beta</span>
+                                <span class="p-badge"><i class="fa-solid fa-server"></i> Backend</span>
+                                <span class="p-badge"><i class="fa-solid fa-network-wired"></i> REST API</span>
+                                <span class="p-badge"><i class="fa-solid fa-database"></i> Database</span>
+                                <span class="p-badge"><i class="fa-solid fa-shield-halved"></i> Authentication</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> JS/Storage</span>
+                                <span class="p-badge"><i class="fa-solid fa-bolt"></i> Secure</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 10: Fruit Ninja Game -->
+                    <div class="swiper-slide project-card glass-card" data-category="games" data-aos="fade-up"
+                        data-project-url="https://santhosh2024.neocities.org/Project's/Fruit%20Ninja" 
+                        data-github-url="https://github.com/A-Santhosh-Hub/FruitNinja"
+                        data-project-title="Fruit Ninja Game">
+                        <img src="https://placehold.co/800x450/1e293b/ffcc00?text=Fruit+Ninja" alt="Fruit Ninja Preview" class="project-thumbnail" loading="lazy">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Fruit Rush</h3>
+                            <div class="project-category">Web Game</div>
+                            <div class="project-badges">
+                                <span class="p-badge role-badge"><i class="fa-solid fa-microchip"></i> Role: AI</span>
+                                <span class="p-badge"><i class="fa-regular fa-clock"></i> 2 Weeks</span>
+                                <span class="p-badge"><i class="fa-solid fa-users"></i> Solo</span>
+                                <span class="p-badge"><i class="fa-solid fa-check"></i> Live</span>
+                                <span class="p-badge"><i class="fa-solid fa-code"></i> Canvas/JS</span>
+                                <span class="p-badge"><i class="fa-solid fa-bolt"></i> 60 FPS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- PHASE 1 FIX: Separate Swiper pagination selector -->
+                <div class="swiper-pagination projects-pagination" style="bottom: -5px; position: relative; margin-top: 20px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="world-break cinematic-section" aria-label="Creative development">
+      <div class="world-break-art" aria-hidden="true"></div>
+      <div class="world-break-copy"><span class="eyebrow">CODE IS ONLY THE BEGINNING.</span><h2>BUILD<br>SOMETHING<br>UNFORGETTABLE.</h2><a href="#about">MEET THE CREATOR <span aria-hidden="true">↘</span></a></div>
+      <span class="scene-coordinate" aria-hidden="true">11.34° N / 77.72° E — INDIA</span>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up"><small>CHAPTER 03 / THE CREATOR</small>MEET<br><em>SANTHOSH.</em></h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>Frontend Developer & UI/UX Designer</h2>
+                    <p>I am a passionate frontend developer and designer with a strong focus on creating intuitive, responsive, and visually appealing web experiences. With expertise in modern web technologies and design principles, I bring ideas to life through code and creativity.</p>
+                    <p>My approach combines technical expertise with aesthetic sensibility to deliver solutions that not only function flawlessly but also delight users. I believe in continuous learning and staying updated with the latest industry trends.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item glass-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-desc">Years Experience</div>
+                        </div>
+                        <div class="stat-item glass-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-desc">Projects Completed</div>
+                        </div>
+                    </div>
+
+                    <!-- Recruiter Quick Info -->
+                    <div class="recruiter-quick-info glass-card" data-aos="fade-up" data-aos-delay="250">
+                        <div class="quick-info-grid">
+                            <div class="qi-item"><span class="qi-label"><i class="fa-solid fa-briefcase"></i> Experience</span> <span class="qi-value">2 Years</span></div>
+                            <div class="qi-item"><span class="qi-label"><i class="fa-solid fa-location-dot"></i> Location</span> <span class="qi-value">India</span></div>
+                            <div class="qi-item"><span class="qi-label"><i class="fa-solid fa-user-tag"></i> Role</span> <span class="qi-value">Frontend Developer</span></div>
+                            <div class="qi-item"><span class="qi-label"><i class="fa-solid fa-wifi"></i> Remote</span> <span class="qi-value">Yes</span></div>
+                            <div class="qi-item"><span class="qi-label"><i class="fa-solid fa-plane"></i> Relocation</span> <span class="qi-value">Yes</span></div>
+                            <div class="qi-item"><span class="qi-label"><i class="fa-regular fa-calendar-check"></i> Joining</span> <span class="qi-value highlight">Immediate</span></div>
+                        </div>
+                        <div class="qi-interested">
+                            <span class="qi-label"><i class="fa-solid fa-heart"></i> Interested In</span>
+                            <div class="focus-tags">
+                                <span class="focus-tag">Frontend</span>
+                                <span class="focus-tag">Java</span>
+                                <span class="focus-tag">UI</span>
+                                <span class="focus-tag">Full Stack</span>
+                                <span class="focus-tag">Remote</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lighthouse Performance Stats -->
+                    <div class="lighthouse-stats" data-aos="fade-up" data-aos-delay="275">
+                        <span class="qi-label" style="margin-bottom: 18px; display: block; font-size: 0.85rem;"><i class="fa-solid fa-gauge-high"></i> Core Vitals</span>
+                        <div class="lh-grid">
+                            <div class="lh-item"><span class="lh-score">95+</span><span class="lh-label">Performance</span></div>
+                            <div class="lh-item"><span class="lh-score">100</span><span class="lh-label">Accessibility</span></div>
+                            <div class="lh-item"><span class="lh-score">100</span><span class="lh-label">SEO</span></div>
+                            <div class="lh-item"><span class="lh-score">96</span><span class="lh-label">Best Practices</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Focus Areas -->
+                    <div class="about-focus-areas" data-aos="fade-up" data-aos-delay="300">
+                        <div class="focus-block">
+                            <h3 class="focus-title"><i class="fa-solid fa-seedling" style="color: #0ce3e9;"></i> Currently Learning</h3>
+                            <div class="focus-tags">
+                                <span class="focus-tag">Spring Boot</span>
+                                <span class="focus-tag">Docker</span>
+                                <span class="focus-tag">Redis</span>
+                                <span class="focus-tag">Microservices</span>
+                                <span class="focus-tag">AWS</span>
+                                <span class="focus-tag">Next.js</span>
+                            </div>
+                        </div>
+                        <div class="focus-block">
+                            <h3 class="focus-title"><i class="fa-solid fa-fire" style="color: #ff7700;"></i> Current Focus</h3>
+                            <div class="focus-tags">
+                                <span class="focus-tag">Building</span>
+                                <span class="focus-tag">AI Tools</span>
+                                <span class="focus-tag">Modern UI</span>
+                                <span class="focus-tag">Java Backend</span>
+                                <span class="focus-tag">Full Stack</span>
+                                <span class="focus-tag">3D Web</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="about-image" data-aos="fade-left">
+                    <a href="https://a-santhosh-hub.github.io/My-Blender-3D-Models/" target="_blank" rel="noopener noreferrer" class="view-3d-btn" title="View Full 3D Showcase">
+                        <i class="fa-solid fa-cube"></i> <span>3D Showcase</span>
+                    </a>
+                    <!-- Updated to auto-load 3D model smoothly when scrolled into view -->
+                    <model-viewer 
+                        src="https://raw.githubusercontent.com/A-Santhosh-Hub/My-Blender-3D-Models/main/models/SanStudi%20Moniter_v1.glb" 
+                        alt="SanStudio Monitor 3D Model" auto-rotate camera-controls shadow-intensity="1"
+                        camera-orbit="45deg 55deg 2.5m" field-of-view="30deg" environment-image="neutral"
+                        interaction-prompt="auto" loading="lazy" reveal="auto">
+                    </model-viewer>
+                    <a href="#home" class="model-prev-btn" aria-label="Scroll to Header"><i class="fa-solid fa-arrow-up"></i></a>
+                    <a href="#skills" class="model-next-btn" aria-label="Scroll to Skills"><i class="fa-solid fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" style="background: var(--dark-alt); overflow: hidden;">
+        <div class="container" style="position: relative; z-index: 3; margin-bottom: 30px;">
+            <h2 class="section-title" data-aos="fade-up"><small>THE LOADOUT</small>TOOLS OF<br><em>THE TRADE.</em></h2>
+        </div>
+
+        <div class="autoplay-progress" style="top: 45%;">
+            <span>SKILLS</span>
+        </div>
+
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="swiper apple-skills-slider">
+                <div class="swiper-wrapper" id="skills-wrapper">
+                    
+                    <!-- PHASE 2 FIX: Accurate GitHub search links for each tech category -->
+                    <div class="skill-item swiper-slide skill-link-card" data-project-url="https://github.com/A-Santhosh-Hub?tab=repositories&q=&type=&language=java" data-project-title="Java Backend Projects" style="cursor: pointer;">
+                        <div class="skill-icon-wrapper"><i class="fa-brands fa-java skill-icon"></i></div>
+                        <div class="skill-info">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                            <div class="skill-context">
+                                <div class="context-row"><i class="fa-solid fa-folder-open"></i> Projects: <span>8 Projects</span></div>
+                                <div class="context-row"><i class="fa-solid fa-bolt"></i> Focus: <span>Learning Spring</span></div>
+                                <div class="context-row"><i class="fa-regular fa-clock"></i> Last Used: <span>Today</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item swiper-slide skill-link-card" data-project-url="https://github.com/A-Santhosh-Hub?tab=repositories&q=&type=&language=react" data-project-title="React Projects" style="cursor: pointer;">
+                        <div class="skill-icon-wrapper"><i class="fa-brands fa-react skill-icon"></i></div>
+                        <div class="skill-info">
+                            <div class="skill-name">React</div>
+                            <div class="skill-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                            <div class="skill-context">
+                                <div class="context-row"><i class="fa-solid fa-folder-open"></i> Projects: <span>10+ Projects</span></div>
+                                <div class="context-row"><i class="fa-solid fa-bolt"></i> Focus: <span>Hooks & State</span></div>
+                                <div class="context-row"><i class="fa-regular fa-clock"></i> Last Used: <span>This Week</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item swiper-slide skill-link-card" data-project-url="https://github.com/A-Santhosh-Hub?tab=repositories&q=&type=&language=javascript" data-project-title="JavaScript Works" style="cursor: pointer;">
+                        <div class="skill-icon-wrapper"><i class="fa-brands fa-js skill-icon"></i></div>
+                        <div class="skill-info">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                            <div class="skill-context">
+                                <div class="context-row"><i class="fa-solid fa-folder-open"></i> Projects: <span>25+ Projects</span></div>
+                                <div class="context-row"><i class="fa-solid fa-bolt"></i> Focus: <span>DOM & APIs</span></div>
+                                <div class="context-row"><i class="fa-regular fa-clock"></i> Last Used: <span>Today</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item swiper-slide skill-link-card" data-project-url="https://github.com/A-Santhosh-Hub?tab=repositories&q=&type=&language=html" data-project-title="HTML/CSS Projects" style="cursor: pointer;">
+                        <div class="skill-icon-wrapper"><i class="fa-brands fa-html5 skill-icon"></i></div>
+                        <div class="skill-info">
+                            <div class="skill-name">HTML/CSS</div>
+                            <div class="skill-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <div class="skill-context">
+                                <div class="context-row"><i class="fa-solid fa-folder-open"></i> Projects: <span>30+ Projects</span></div>
+                                <div class="context-row"><i class="fa-solid fa-bolt"></i> Focus: <span>Modern Layouts</span></div>
+                                <div class="context-row"><i class="fa-regular fa-clock"></i> Last Used: <span>Today</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item swiper-slide skill-link-card" data-project-url="https://github.com/A-Santhosh-Hub" data-project-title="UI/UX Design Systems" style="cursor: pointer;">
+                        <div class="skill-icon-wrapper"><i class="fa-solid fa-pen-nib skill-icon"></i></div>
+                        <div class="skill-info">
+                            <div class="skill-name">UI/UX Design</div>
+                            <div class="skill-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                            <div class="skill-context">
+                                <div class="context-row"><i class="fa-solid fa-folder-open"></i> Projects: <span>15+ Systems</span></div>
+                                <div class="context-row"><i class="fa-solid fa-bolt"></i> Focus: <span>Figma & OS UI</span></div>
+                                <div class="context-row"><i class="fa-regular fa-clock"></i> Last Used: <span>Today</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item swiper-slide skill-link-card" data-project-url="https://github.com/A-Santhosh-Hub?tab=repositories&q=&type=&language=typescript" data-project-title="Node.js Backends" style="cursor: pointer;">
+                        <div class="skill-icon-wrapper"><i class="fa-brands fa-node-js skill-icon"></i></div>
+                        <div class="skill-info">
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                            <div class="skill-context">
+                                <div class="context-row"><i class="fa-solid fa-folder-open"></i> Projects: <span>5+ Projects</span></div>
+                                <div class="context-row"><i class="fa-solid fa-bolt"></i> Focus: <span>Express APIs</span></div>
+                                <div class="context-row"><i class="fa-regular fa-clock"></i> Last Used: <span>Last Month</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item swiper-slide skill-link-card" data-project-url="https://a-santhosh-hub.github.io/My-Blender-3D-Models/" data-project-title="My Blender 3D Models" style="cursor: pointer;">
+                        <div class="skill-icon-wrapper"><i class="fa-solid fa-cube skill-icon"></i></div>
+                        <div class="skill-info">
+                            <div class="skill-name">Blender 3D</div>
+                            <div class="skill-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                            <div class="skill-context">
+                                <div class="context-row"><i class="fa-solid fa-folder-open"></i> Projects: <span>15+ Models</span></div>
+                                <div class="context-row"><i class="fa-solid fa-bolt"></i> Focus: <span>3D Web Assets</span></div>
+                                <div class="context-row"><i class="fa-regular fa-clock"></i> Last Used: <span>This Week</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="apple-nav-controls" data-aos="fade-up">
+                <div class="swiper-button-prev-skills apple-nav-btn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="swiper-button-next-skills apple-nav-btn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+
+            <!-- Backend Engineering Spotlight -->
+            <div class="backend-spotlight glass-card" data-aos="fade-up">
+                <h3 style="font-size: 1.5rem; margin-bottom: 25px; display: flex; align-items: center; gap: 12px; color: var(--light);">
+                    <i class="fa-solid fa-server" style="color: #ff7700; font-size: 1.8rem;"></i> Backend Engineering & API Design
+                </h3>
+                
+                <div class="backend-grid">
+                    <div class="b-stats-grid">
+                        <div class="b-stat"><span class="b-stat-num">12</span><span class="b-stat-label">REST APIs Built</span></div>
+                        <div class="b-stat"><span class="b-stat-num">5</span><span class="b-stat-label">CRUD Systems</span></div>
+                        <div class="b-stat"><span class="b-stat-num">8</span><span class="b-stat-label">Databases</span></div>
+                        <div class="b-stat"><span class="b-stat-num">4</span><span class="b-stat-label">Auth Systems</span></div>
+                    </div>
+                    <div>
+                        <h4 style="font-size: 1rem; color: var(--text-light); margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Core Backend Technologies</h4>
+                        <div class="focus-tags">
+                            <span class="focus-tag"><i class="fa-brands fa-java" style="color: #ff7700;"></i> Java</span>
+                            <span class="focus-tag"><i class="fa-solid fa-leaf" style="color: #6db33f;"></i> Spring Boot</span>
+                            <span class="focus-tag"><i class="fa-solid fa-database" style="color: #00758f;"></i> MySQL</span>
+                            <span class="focus-tag"><i class="fa-solid fa-envira" style="color: #4db33d;"></i> MongoDB</span>
+                            <span class="focus-tag"><i class="fa-solid fa-network-wired" style="color: var(--secondary);"></i> REST API</span>
+                            <span class="focus-tag"><i class="fa-solid fa-key" style="color: #f6e05e;"></i> JWT</span>
+                            <span class="focus-tag"><i class="fa-solid fa-layer-group" style="color: #bfa170;"></i> Hibernate</span>
+                            <span class="focus-tag"><i class="fa-solid fa-fire" style="color: #ffca28;"></i> Firebase</span>
+                            <span class="focus-tag"><i class="fa-brands fa-node-js" style="color: #68a063;"></i> Node.js</span>
+                            <span class="focus-tag"><i class="fa-solid fa-server"></i> Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Recruiter Appeals Section -->
+    <section id="why-hire-me" class="section" style="padding-top: 60px; padding-bottom: 40px;">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Why Companies Hire Me</h2>
+            <div class="appeal-grid">
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="50"><div class="appeal-icon"><i class="fa-solid fa-bolt"></i></div><div class="appeal-title">Fast Learner</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="100"><div class="appeal-icon"><i class="fa-solid fa-puzzle-piece"></i></div><div class="appeal-title">Problem Solver</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="150"><div class="appeal-icon"><i class="fa-regular fa-lightbulb"></i></div><div class="appeal-title">Creative Thinking</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="200"><div class="appeal-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div><div class="appeal-title">Clean UI</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="250"><div class="appeal-icon"><i class="fa-solid fa-gauge-high"></i></div><div class="appeal-title">Performance</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="300"><div class="appeal-icon"><i class="fa-solid fa-mobile-screen-button"></i></div><div class="appeal-title">Responsive Design</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="350"><div class="appeal-icon"><i class="fa-brands fa-js"></i></div><div class="appeal-title">Modern JavaScript</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="400"><div class="appeal-icon"><i class="fa-brands fa-java"></i></div><div class="appeal-title">Java Backend</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="450"><div class="appeal-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div><div class="appeal-title">SEO Knowledge</div></div>
+                <div class="appeal-card glass-card" data-aos="fade-up" data-aos-delay="500"><div class="appeal-icon"><i class="fa-solid fa-code-branch"></i></div><div class="appeal-title">Git Workflow</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SanStudio Agency Banner -->
+    <section id="agency" style="padding: 20px 0 60px 0; position: relative; z-index: 5;">
+        <div class="container">
+            <div class="sanstudio-banner glass-card" data-aos="zoom-in">
+                <div class="sanstudio-content">
+                    <div class="sanstudio-logo">
+                        <i class="fa-solid fa-layer-group" style="color: #ff5722; font-size: 2rem;"></i> SanStudio
+                    </div>
+                    <h2>The SanStudio that puts you first</h2>
+                    <p>Block bad design. Save resources. And get way faster web apps. Just by switching your developer team.</p>
+                    
+                    <div class="sanstudio-features">
+                        <span class="feature-tag"><i class="fa-solid fa-code" style="color: #0ce3e9;"></i> Modern Web Apps</span>
+                        <span class="feature-tag"><i class="fa-solid fa-wand-magic-sparkles" style="color: #d946ef;"></i> Flawless UI/UX</span>
+                        <span class="feature-tag"><i class="fa-solid fa-briefcase" style="color: #ff007f;"></i> Business Sites</span>
+                    </div>
+
+                    <a href="https://sanstudio-hub.github.io/in/" target="_blank" rel="noopener noreferrer" class="btn sanstudio-btn">
+                        Hire SanStudio <i class="fa-solid fa-arrow-up-right-from-square" style="margin-left: 8px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Activity Section -->
+    <section id="github-stats" class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="glass-card" data-aos="fade-up">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                    <h3 style="font-size: 1.8rem; font-weight: 800; display: flex; align-items: center; gap: 12px; color: var(--light);">
+                        <i class="fa-brands fa-github" style="font-size: 2.2rem;"></i> GitHub Activity
+                        <span class="status-dot available" style="width: 12px; height: 12px; margin-left: 10px;" title="Live Sync"></span>
+                    </h3>
+                    <a href="https://github.com/A-Santhosh-Hub" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 10px 20px; min-height: auto;">Follow Me</a>
+                </div>
+                
+                <div class="github-stats-container">
+                    <div class="gh-stat-card">
+                        <div class="gh-icon" style="color: #0ce3e9;"><i class="fa-solid fa-book-bookmark"></i></div>
+                        <div class="gh-info"><span class="gh-num" id="gh-repos">—</span><span class="gh-label">Repositories</span></div>
+                    </div>
+                    <!-- PHASE 2 FIX: Real Stars Earned fetched dynamically via JS below -->
+                    <div class="gh-stat-card">
+                        <div class="gh-icon" style="color: #ffcc00;"><i class="fa-solid fa-star"></i></div>
+                        <div class="gh-info"><span class="gh-num" id="gh-stars">—</span><span class="gh-label">Stars Earned</span></div>
+                    </div>
+                    <div class="gh-stat-card">
+                        <div class="gh-icon" style="color: #22c55e;"><i class="fa-solid fa-code-commit"></i></div>
+                        <!-- Explicitly labeled as a snapshot since Github API limits total commit fetching -->
+                        <div class="gh-info"><span class="gh-num" id="gh-commits">950+</span><span class="gh-label">Contributions (2025)</span></div>
+                    </div>
+                    <div class="gh-stat-card">
+                        <div class="gh-icon" style="color: #d946ef;"><i class="fa-solid fa-users"></i></div>
+                        <div class="gh-info"><span class="gh-num" id="gh-followers">—</span><span class="gh-label">Followers</span></div>
+                    </div>
+                </div>
+
+                <div class="gh-languages">
+                    <span style="font-weight: 700; color: var(--text-light); font-size: 0.9rem; text-transform: uppercase;">Top Languages</span>
+                    <div class="gh-lang-bar">
+                        <div class="gh-lang-segment" style="width: 45%; background: #f7df1e;" title="JavaScript 45%"></div>
+                        <div class="gh-lang-segment" style="width: 25%; background: #e34f26;" title="HTML 25%"></div>
+                        <div class="gh-lang-segment" style="width: 20%; background: #b07219;" title="Java 20%"></div>
+                        <div class="gh-lang-segment" style="width: 10%; background: #264de4;" title="CSS 10%"></div>
+                    </div>
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; font-weight: 600;">
+                        <span style="display: flex; align-items: center; gap: 5px;"><span style="width:10px;height:10px;border-radius:50%;background:#f7df1e;"></span> JS (45%)</span>
+                        <span style="display: flex; align-items: center; gap: 5px;"><span style="width:10px;height:10px;border-radius:50%;background:#e34f26;"></span> HTML (25%)</span>
+                        <span style="display: flex; align-items: center; gap: 5px;"><span style="width:10px;height:10px;border-radius:50%;background:#b07219;"></span> Java (20%)</span>
+                        <span style="display: flex; align-items: center; gap: 5px;"><span style="width:10px;height:10px;border-radius:50%;background:#264de4;"></span> CSS (10%)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up"><small>THE STORY SO FAR</small>EVERY CHAPTER.<br><em>A LEVEL UP.</em></h2>
+            <div class="timeline">
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="50">
+                    <div class="timeline-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <div class="timeline-content glass-card" style="border: 1px solid rgba(255, 87, 34, 0.4); box-shadow: inset 0 0 20px rgba(255, 87, 34, 0.05);">
+                        <div class="timeline-date" style="background: linear-gradient(135deg, #ff5722, #ff9800); box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);">2026 - Present</div>
+                        <h3 class="timeline-title">Founder & Lead Developer</h3>
+                        <h2 class="timeline-title" style="font-size: 1.1rem; color: #ff5722;">SanStudio (Freelance Agency)</h2>
+                        <p class="timeline-desc" style="margin-top: 10px;">Running my own freelance company, delivering high-performance modern web apps, flawless UI/UX design systems, and high-conversion business sites.</p>
+                        <a href="https://sanstudio-hub.github.io/in/" target="_blank" rel="noopener noreferrer" class="btn" style="margin-top: 20px; padding: 10px 20px; font-size: 0.85rem; background: linear-gradient(135deg, #ff5722, #ff9800); box-shadow: 0 5px 15px rgba(255,87,34,0.3);">Visit SanStudio <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">2026 - Present</div>
+                        <h3 class="timeline-title">Multimedia Designer</h3>
+                        <h2 class="timeline-title" style="font-size: 1.1rem; color: var(--primary);">ALP Astrology Office, Chennai</h2>
+                        <p class="timeline-desc" style="margin-top: 10px;">Creating digital, web/SaaS, and promotional content for branding and communication.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">2025 - 2026</div>
+                        <h3 class="timeline-title">Frontend Developer</h3>
+                        <div class="timeline-desc">learning from online resources and tutorials</div>
+                        <p class="timeline-desc" style="margin-top: 10px;">Developed responsive web applications using React, JavaScript, and modern CSS frameworks. Collaborated with UX designers to implement user-friendly interfaces.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">2025</div>
+                        <h3 class="timeline-title">Content Writing</h3>
+                        <h2 class="timeline-title" style="font-size: 1.1rem; color: var(--primary);">Internship 3-months</h2>
+                        <div class="timeline-desc">United Soft Tech (Salem)</div>
+                        <p class="timeline-desc" style="margin-top: 10px;">Developed engaging content for web applications, focusing on user experience and interface design. Collaborated with developers to ensure content alignment with technical specifications.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">2023 - 2025</div>
+                        <h3 class="timeline-title">Master of Computer Application</h3>
+                        <div class="timeline-desc">NANDHA ENGINEERING COLLEGE, ERODE</div>
+                        <p class="timeline-desc" style="margin-top: 10px;">Created wireframes, prototypes, and visual designs for web and mobile applications. Conducted user research and usability testing to optimize designs.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-icon"><i class="fa-solid fa-cube"></i></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">2019 - 2025 (learning)</div>
+                        <h3 class="timeline-title">Blender_3D</h3>
+                        <div class="timeline-desc">learning from online resources and tutorials</div>
+                        <p class="timeline-desc" style="margin-top: 10px;">Created 3D models and animations using Blender. Focused on character modeling, rigging, and animation techniques.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">2019 - 2022</div>
+                        <h3 class="timeline-title">Bachelor of Computer Science</h3>
+                        <div class="timeline-desc">NANDHA ARTS AND SCIENCE COLLEGE, ERODE</div>
+                        <p class="timeline-desc" style="margin-top: 10px;">Graduated with honors. Specialized in web development and human-computer interaction. Completed thesis on responsive design patterns.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up"><small>UNLOCKED ALONG THE WAY</small>KEEP<br><em>LEARNING.</em></h2>
+            <div class="swiper certificates-slider">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide certificate-card glass-card" data-aos="fade-up" data-aos-delay="100" data-certificate="1" style="padding: 0; display: flex; flex-direction: column;">
+                        <img src="https://raw.githubusercontent.com/A-Santhosh-Hub/in/main/as/Machine%20Learning%20.png" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1e293b/FFF?text=ML+Certificate'" alt="Machine Learning Certificate" class="certificate-image" loading="lazy">
+                        <div class="certificate-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                            <h3 class="certificate-title">Machine Learning</h3>
+                            <div class="certificate-issuer">Issued by: GreatLearning</div>
+                            <p class="timeline-desc" style="flex-grow: 1;">Fundamentals of machine learning, including supervised and unsupervised algorithms.</p>
+                            <div style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 15px;">
+                                <div style="font-size: 0.75rem; color: var(--text-light); margin-bottom: 10px; font-family: monospace; letter-spacing: 0.5px;">ID: GL-ML-7892X</div>
+                                <div class="project-badges" style="margin-top: 0; margin-bottom: 15px;">
+                                    <span class="p-badge"><i class="fa-solid fa-microchip"></i> Python / AI</span>
+                                    <span class="p-badge"><i class="fa-solid fa-layer-group"></i> Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide certificate-card glass-card" data-aos="fade-up" data-aos-delay="200" data-certificate="2" style="padding: 0; display: flex; flex-direction: column;">
+                        <img src="https://raw.githubusercontent.com/A-Santhosh-Hub/in/main/as/Advanced%20Cyber%20Security%20-%20Threats%20and%20Governance.png" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1e293b/FFF?text=Cyber+Security'" alt="Advanced Cyber Security Certificate" class="certificate-image" loading="lazy">
+                        <div class="certificate-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                            <h3 class="certificate-title">Advanced Cyber Security</h3>
+                            <div class="certificate-issuer">Issued by: GreatLearning</div>
+                            <p class="timeline-desc" style="flex-grow: 1;">Comprehensive training in cyber security threats, risk management, and governance frameworks.</p>
+                            <div style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 15px;">
+                                <div style="font-size: 0.75rem; color: var(--text-light); margin-bottom: 10px; font-family: monospace; letter-spacing: 0.5px;">ID: GL-CS-4512V</div>
+                                <div class="project-badges" style="margin-top: 0; margin-bottom: 15px;">
+                                    <span class="p-badge"><i class="fa-solid fa-shield-halved"></i> Security</span>
+                                    <span class="p-badge"><i class="fa-solid fa-layer-group"></i> Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide certificate-card glass-card" data-aos="fade-up" data-aos-delay="300" data-certificate="3" style="padding: 0; display: flex; flex-direction: column;">
+                        <img src="https://raw.githubusercontent.com/A-Santhosh-Hub/in/main/as/Database%20Management%20System.png" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1e293b/FFF?text=DBMS+Certificate'" alt="DBMS Certificate" class="certificate-image" loading="lazy">
+                        <div class="certificate-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                            <h3 class="certificate-title">Database Management System</h3>
+                            <div class="certificate-issuer">Issued by: GreatLearning</div>
+                            <p class="timeline-desc" style="flex-grow: 1;">Core concepts of database architecture, SQL queries, and relational models.</p>
+                            <div style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 15px;">
+                                <div style="font-size: 0.75rem; color: var(--text-light); margin-bottom: 10px; font-family: monospace; letter-spacing: 0.5px;">ID: GL-DB-8831A</div>
+                                <div class="project-badges" style="margin-top: 0; margin-bottom: 15px;">
+                                    <span class="p-badge"><i class="fa-solid fa-database"></i> SQL / NoSQL</span>
+                                    <span class="p-badge"><i class="fa-solid fa-layer-group"></i> Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide certificate-card glass-card" data-aos="fade-up" data-aos-delay="400" data-certificate="4" style="padding: 0; display: flex; flex-direction: column;">
+                        <img src="https://raw.githubusercontent.com/A-Santhosh-Hub/in/main/as/Front%20End%20Development%20-%20HTML.png" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1e293b/FFF?text=HTML+Certificate'" alt="HTML Certificate" class="certificate-image" loading="lazy">
+                        <div class="certificate-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                            <h3 class="certificate-title">Front End Development - HTML</h3>
+                            <div class="certificate-issuer">Issued by: GreatLearning</div>
+                            <p class="timeline-desc" style="flex-grow: 1;">HTML, CSS, and JavaScript fundamentals for building responsive websites.</p>
+                            <div style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 15px;">
+                                <div style="font-size: 0.75rem; color: var(--text-light); margin-bottom: 10px; font-family: monospace; letter-spacing: 0.5px;">ID: GL-FE-1029C</div>
+                                <div class="project-badges" style="margin-top: 0; margin-bottom: 15px;">
+                                    <span class="p-badge"><i class="fa-brands fa-html5"></i> Web Dev</span>
+                                    <span class="p-badge"><i class="fa-solid fa-layer-group"></i> Beginner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide certificate-card glass-card" data-aos="fade-up" data-aos-delay="500" data-certificate="5" style="padding: 0; display: flex; flex-direction: column;">
+                        <img src="https://raw.githubusercontent.com/A-Santhosh-Hub/in/main/as/Introduction%20to%20Information%20Security.png" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1e293b/FFF?text=Info+Security'" alt="Information Security Certificate" class="certificate-image" loading="lazy">
+                        <div class="certificate-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                            <h3 class="certificate-title">Intro to Information Security</h3>
+                            <div class="certificate-issuer">Issued by: GreatLearning</div>
+                            <p class="timeline-desc" style="flex-grow: 1;">Foundational principles of protecting data and securing information systems.</p>
+                            <div style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 15px;">
+                                <div style="font-size: 0.75rem; color: var(--text-light); margin-bottom: 10px; font-family: monospace; letter-spacing: 0.5px;">ID: GL-IS-5521B</div>
+                                <div class="project-badges" style="margin-top: 0; margin-bottom: 15px;">
+                                    <span class="p-badge"><i class="fa-solid fa-network-wired"></i> Networking</span>
+                                    <span class="p-badge"><i class="fa-solid fa-layer-group"></i> Beginner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- PHASE 1 FIX: Separate Swiper pagination selector -->
+                <div class="swiper-pagination certificates-pagination" style="bottom: -5px; position: relative; margin-top: 20px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up"><small>CHAPTER 04 / THE NEXT ADVENTURE</small>GOT A<br><em>BIG IDEA?</em></h2>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    
+                    <div class="contact-stats-grid">
+                        <div class="c-stat-item">
+                            <span class="c-stat-label"><i class="fa-solid fa-clock"></i> Avg Reply</span>
+                            <span class="c-stat-value">&lt; 12 Hours</span>
+                        </div>
+                        <div class="c-stat-item">
+                            <span class="c-stat-label"><i class="fa-solid fa-calendar-check"></i> Availability</span>
+                            <span class="c-stat-value" style="color: #22c55e;">Open</span>
+                        </div>
+                        <div class="c-stat-item">
+                            <span class="c-stat-label"><i class="fa-solid fa-globe"></i> Timezone</span>
+                            <span class="c-stat-value">IST</span>
+                        </div>
+                        <div class="c-stat-item">
+                            <span class="c-stat-label"><i class="fa-solid fa-briefcase"></i> Working Days</span>
+                            <span class="c-stat-value">Mon - Fri</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item glass-card" style="padding: 20px;">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:arussanthosh@gmail.com" class="timeline-desc">arussanthosh@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card" style="padding: 20px;">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+919003356047" class="timeline-desc">+91 9003356047</a></p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/919003356047" target="_blank" rel="noopener noreferrer" class="contact-item glass-card" style="padding: 20px;">
+                        <div class="contact-icon" style="background: linear-gradient(135deg, #25D366, #128C7E);"><i class="fa-brands fa-whatsapp"></i></div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p class="timeline-desc">+91 90033 56047</p>
+                        </div>
+                    </a>
+                    <div class="contact-item glass-card" style="padding: 20px;">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h3>Location</h3>
+                            <p><a href="https://www.google.com/maps/place/Erode,+Tamil+Nadu" target="_blank" rel="noopener noreferrer" class="timeline-desc">Erode, India</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form glass-card" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email_id" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" placeholder="Your Message" required></textarea>
+                    </div>
+                    <!-- PHASE 6 FIX: Hidden Honeypot Field for anti-bot protection -->
+                    <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
+                    <input type="hidden" name="time">
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-cinema"><span>SEE YOU IN THE<br>NEXT CHAPTER.</span><a href="#home" aria-label="Back to top">↑</a></div>
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">SANTHOSH A</div><div class="social-links">
+                    <a href="https://github.com/A-Santhosh-Hub" data-aos="fade-up" data-aos-delay="100" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/santhosh.mp.923519" data-aos="fade-up" data-aos-delay="200" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/santhosh-a-sanstudio/" data-aos="fade-up" data-aos-delay="300" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@crazyvideos788" data-aos="fade-up" data-aos-delay="400" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/santhosh.origin/" data-aos="fade-up" data-aos-delay="500" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                    <p class="footer-desc">Thoughtful websites, useful tools, and a little imagination. Designed and developed by Santhosh A, in India.</p>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Branding</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">System Status</h3>
+                    <ul style="color: var(--text-light); font-size: 0.95rem;">
+                        <li style="margin-bottom: 12px; display: flex; justify-content: space-between; border-bottom: 1px dashed var(--glass-border); padding-bottom: 5px;">
+                            <span>Portfolio Version</span> <span style="color: var(--primary); font-weight: 700;">v3.2</span>
+                        </li>
+                        <li style="margin-bottom: 12px; display: flex; justify-content: space-between; border-bottom: 1px dashed var(--glass-border); padding-bottom: 5px;">
+                            <span>Last Updated</span> <span style="color: var(--light); font-weight: 600;">August 2026</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 30px; padding-top: 30px; border-top: 1px solid var(--glass-border); display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px;">
+                <span style="color: var(--text-light); font-weight: 600; margin-right: 5px;">Built with:</span>
+                <span class="p-badge"><i class="fa-brands fa-html5" style="color: #e34f26;"></i> HTML</span>
+                <span class="p-badge"><i class="fa-brands fa-css3-alt" style="color: #264de4;"></i> CSS</span>
+                <span class="p-badge"><i class="fa-brands fa-js" style="color: #f7df1e;"></i> JavaScript</span>
+                <span class="p-badge"><i class="fa-solid fa-cube" style="color: #ea7600;"></i> Blender</span>
+                <span class="p-badge" style="border-color: rgba(255,0,127,0.3); background: rgba(255,0,127,0.1);"><i class="fa-solid fa-heart" style="color: #ff007f;"></i> Love</span>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Santhosh A. All Rights Reserved. | <span id="india-time"></span></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Certificate Modal -->
+    <div class="modal" id="certificate-modal">
+        <div class="modal-content">
+            <div class="modal-close" id="modal-close" role="button" aria-label="Close" tabindex="0"><i class="fa-solid fa-xmark"></i></div>
+            <img src="" alt="Certificate" id="modal-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1e293b/FFF?text=Certificate+Preview'" style="width:100%; border-radius: 16px; margin-bottom: 20px;">
+            <div class="modal-body">
+                <h2 id="modal-title" style="font-size: 1.5rem; margin-bottom: 10px;"></h2>
+                <div id="modal-issuer" style="color: var(--primary); font-weight: 600; margin-bottom: 10px;"></div>
+                <p id="modal-desc" style="color: var(--text-light);"></p>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div id="toast" class="toast"></div>
+    <!-- Project Modal (Multi-Tabbed Case Study) -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content" id="project-modal-content">
+            <div class="project-modal-header">
+                <h3 id="project-modal-title">Project Title</h3>
+                <div class="project-modal-controls">
+                    <button id="project-modal-fullscreen" title="Toggle Fullscreen" aria-label="Fullscreen"><i class="fa-solid fa-expand"></i></button>
+                    <!-- PHASE 2 FIX: Real modal link updating -->
+                    <a href="#" id="project-modal-new-tab" target="_blank" rel="noopener noreferrer" title="Open in New Tab" aria-label="Open in New Tab"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <button id="project-modal-close" title="Close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+            <div class="project-modal-body">
+                <div class="project-tab-pane active" id="tab-preview">
+                    <iframe id="project-modal-iframe" title="Project live preview" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <script src="as/script.js"></script>
+    <!-- Toast Notification Container -->
+    <div id="notification-toast" class="notification-toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="notification-message">Message sent successfully!</span>
+    </div>
+
+    <!-- SCRIPT TAGS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/core.js"></script>
+    <script src="assets/edition.js"></script>
+    <script src="assets/cinema.js"></script>
 </body>
 </html>
